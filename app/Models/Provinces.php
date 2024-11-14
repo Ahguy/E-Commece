@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Provinces extends Model
+{
+    
+    protected $table = "province_table";
+    protected $fillable = [
+        'proname',
+        'khmer',
+        'Image'];
+}
